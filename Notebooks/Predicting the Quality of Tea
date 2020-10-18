@@ -1,0 +1,15 @@
+I created a data set on my own which i'm going to use in this project.
+it determines the quality of tea based on previous inputs.
+We first start by collecting the required data. Clean it: removing unwanted rows and columns
+in the MS Excel. Then we convert the format into a CSV. This CSV file is uploaded to our
+Jupyter Notebook where we load this dataset.
+We visualize this dataset using different graphs offered to us by Matplotlib and Seaborn in
+Pandas like the box plot, histogram and the scatter matrix.
+The dataset is then split into a training set and testing set. We train the training set to predict
+different types of tea. This will be our machine learning model. This model is then tested on
+what is known as the testing set. The dataset splitting ratio is usually 4:1 and we have used
+that.
+Since our project is a classification problem, we need to use one of the classification
+algorithms out of many. To choose the best algorithm for our project, we test the accuracy of
+each algorithm in relation to our project. We find that Linear Discriminant Analysis gives us
+the maximum accuracy of 95%.
